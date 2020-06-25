@@ -1,5 +1,14 @@
 extends layout
 
 block content
+  include partials/header
   h1= title
-  p Welcome to #{title}
+  main
+    div
+        h2 Rooms for Rent
+        a(href="https://github.com/arshgosal/ModuleProject3") To book a room
+
+    div
+        h2 To Do List
+        a(href="https://github.com/arshgosal/Project") to open to do list
+  include partials/footer

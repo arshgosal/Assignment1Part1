@@ -1,7 +1,9 @@
 extends layout
 
 block content
+    
+  include partials/header
   h1= title
   p Welcome to the profile of #{name}
   p Here you can find my personal information and some of the projects I have created last semester.
-  
+  include partials/footer

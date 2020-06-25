@@ -37,6 +37,7 @@
     <Content Include="README.md" />
     <Content Include="views\Aboutme.pug" />
     <Content Include="views\Contact.pug" />
+    <Content Include="views\Services.pug" />
     <Content Include="views\Projects.pug" />
     <Content Include="views\index.pug" />
     <Content Include="views\layout.pug" />
